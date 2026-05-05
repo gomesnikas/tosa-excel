@@ -1,0 +1,14 @@
+# 1. Initialiser le dépôt local
+git init
+
+# 2. Ajouter tous les fichiers (le fichier .gitignore est déjà configuré)
+git add .
+
+# 3. Créer le premier commit
+git commit -m "Initial commit: TOSA Excel App Fullstack"
+
+# 4. Lier à votre dépôt distant (Créez d'abord un dépôt vide sur GitHub)
+git remote add origin https://github.com/VOTRE_NOM_UTILISATEUR/VOTRE_NOM_REPO.git
+
+# 5. Envoyer le code
+git push -u origin main

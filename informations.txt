@@ -1,0 +1,10 @@
+Installation locale :
+Dézippez le dossier.
+Ouvrez un terminal dans le dossier et tapez : npm install
+Lancement :
+Tapez : npm run dev
+L'application sera disponible sur http://localhost:3000.
+La doc Swagger (API) sera sur http://localhost:3000/api-docs.
+Hébergement (Déploiement) :
+Front-end : Vous pouvez glisser-déposer le dossier dist (après avoir fait npm run build) sur Netlify ou Vercel.
+Back-end (API) : Pour garder l'API active, vous pouvez déployer le projet sur Render.com ou Railway.app (choisissez le mode "Node.js").
